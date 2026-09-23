@@ -36,7 +36,7 @@ export function Navigation() {
             <span className="font-bold text-xl">ZOO</span>
             <span className="text-muted-foreground">Explorer</span>
           </Link>
-          <nav className="flex items-center space-x-6 text-sm font-medium">
+          <nav className="flex items-center space-x-4 sm:space-x-6 text-sm font-medium">
             {navItems.map((item) => {
               const Icon = item.icon
               return (
